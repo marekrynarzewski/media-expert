@@ -1,6 +1,6 @@
 .env:
 	cp .env.example .env
-	ln -s .env docker/.env
+	ln -s '$(shell pwd)/.env' '$(shell pwd)/docker/.env'
 
 init:
 	make docker-run command="build --no-cache"
