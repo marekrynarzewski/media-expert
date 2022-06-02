@@ -1,7 +1,7 @@
 <?php
 
+use Interview\Task3\Range;
 use PHPUnit\Framework\TestCase;
-use Interview\Challenge2\Range;
 
 class RangeTest extends TestCase
 {
@@ -24,7 +24,8 @@ class RangeTest extends TestCase
         $this->assertFalse($a($array));
     }
 
-    public function trueCases(): array 
+
+    public function trueCases(): array
     {
         return [
             [
@@ -36,7 +37,7 @@ class RangeTest extends TestCase
         ];
     }
 
-    public function falseCases(): array 
+    public function falseCases(): array
     {
         return [
             [

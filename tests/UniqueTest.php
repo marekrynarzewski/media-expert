@@ -1,8 +1,7 @@
 <?php
 
-use Interview\Challenge1\ImmutableWeekDay;
 use PHPUnit\Framework\TestCase;
-use Interview\Challenge1\Unique;
+use Interview\Task2\Unique;
 
 class UniqueTest extends TestCase
 {
@@ -13,8 +12,8 @@ class UniqueTest extends TestCase
     }
 
     /**
-        * @dataProvider cases
-    */
+     * @dataProvider cases
+     */
     public function test_general(int $expected, array $array): void
     {
         $a = new Unique();

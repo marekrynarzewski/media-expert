@@ -3,10 +3,7 @@
     "description": "Package provides code challenges for new devs",
     "type": "project",
     "require": {
-        "phpunit/phpunit": "^9.5",
-        "illuminate/container": "^8.52",
-        "illuminate/events": "^8.52",
-        "symfony/event-dispatcher": "^5.3"
+        "phpunit/phpunit": "^9.5"
     },
     "license": "Apache-2.0",
     "autoload": {

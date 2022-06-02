@@ -1,4 +1,6 @@
-#Added by PHPSandbox
-/vendor
+/vendor/
 .env
-database.sqlite
+/docker/.composer/cache/
+/docker/.composer/.htaccess
+.idea
+/.phpunit.result.cache
